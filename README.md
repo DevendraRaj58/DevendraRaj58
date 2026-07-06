@@ -28,20 +28,11 @@
 
 ## 🕷️ &nbsp;WHO AM I?
 
-Final-year **B.Tech student in Artificial Intelligence & Data Science** at Ajeenkya DY Patil University, Pune (CGPA **8.8 / 10**, Batch 2023–2027). I build things that think — multi-agent bots, RAG pipelines, and end-to-end ML systems that go from Jupyter notebook to production on AWS.
+Final-year **B.Tech student in Artificial Intelligence & Data Science** at Ajeenkya DY Patil University, Pune (CGPA **8.8 / 10**, Batch 2023–2027). I build things that think — multi-agent bots, RAG pipelines, and end-to-end ML systems.
 
-When I'm not writing code I'm hunting hackathons. National-level wins, Top 10 finishes, and a lot of late nights arguing with LangGraph.
 
-```python
-devendra = {
-    "pronouns"   : "he / him",
-    "location"   : "Pune, Maharashtra 🇮🇳",
-    "currently"  : ["Placement prep", "ML System Design", "LLMOps"],
-    "target_role": "AI / ML Engineer  |  Agentic AI Engineer",
-    "ask_me_about": ["LangGraph", "RAG pipelines", "AWS Elastic Beanstalk", "Hackathons"],
-    "fun_fact"   : "Spider-Man also uses his webs to connect the dots 🕸️"
-}
-```
+
+
 
 <br clear="both"/>
 
@@ -200,9 +191,7 @@ devendra = {
 
 <br/>
 
-*"The one thing they love more than a hero …*
-*is to see a hero fail."*
-*— J. Jonah Jameson (he's wrong, but the pressure is real)*
+
 
 <br/>
 

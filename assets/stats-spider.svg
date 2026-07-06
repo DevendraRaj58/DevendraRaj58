@@ -1,0 +1,147 @@
+<svg viewBox="0 0 860 90" width="860" height="90" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <radialGradient id="sg" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#1a0000"/>
+      <stop offset="100%" stop-color="#080808"/>
+    </radialGradient>
+
+    <style>
+      /*
+        Total loop: 13s
+        0-1s      : dark gap (reset)
+        1-2.8s    : Spider-Man swings in from right
+        2.8-8s    : hangs in center, title visible
+        8-10s     : Spider-Man swings out to left
+        10-13s    : dark gap (invisible) → loop restarts
+      */
+
+      /* ── SPIDER-MAN SWING ── */
+      @keyframes swing {
+        0%   { transform: translate(540px, 28px);  opacity: 0; }
+        7.7% { transform: translate(540px, 28px);  opacity: 0; }   /* 1s  — still off-screen */
+        21%  { transform: translate(0px,   0px);   opacity: 1; }   /* 2.7s — swung in */
+        61%  { transform: translate(0px,   0px);   opacity: 1; }   /* 8s   — still hanging */
+        77%  { transform: translate(-540px, 28px); opacity: 0; }   /* 10s  — swung off left */
+        100% { transform: translate(-540px, 28px); opacity: 0; }   /* 13s  — dark gap */
+      }
+
+      /* ── WEB LINE (from top-right to hand) ── */
+      @keyframes webLine {
+        0%   { opacity: 0; }
+        7.7% { opacity: 0; }
+        21%  { opacity: 1; }
+        61%  { opacity: 1; }
+        77%  { opacity: 0; }
+        100% { opacity: 0; }
+      }
+
+      /* ── SECTION TITLE ── */
+      @keyframes titlePulse {
+        0%   { opacity: 0; }
+        21%  { opacity: 0; }
+        30%  { opacity: 1; }
+        61%  { opacity: 1; }
+        77%  { opacity: 0; }
+        100% { opacity: 0; }
+      }
+
+      /* ── CORNER MINI WEBS ── */
+      @keyframes cornerShow {
+        0%   { opacity: 0; }
+        21%  { opacity: 0;    }
+        35%  { opacity: 0.28; }
+        61%  { opacity: 0.28; }
+        77%  { opacity: 0;    }
+        100% { opacity: 0;    }
+      }
+
+      .sm      { animation: swing       13s ease-in-out infinite; }
+      .wl      { animation: webLine     13s ease-in-out infinite; }
+      .stitle  { animation: titlePulse  13s ease          infinite; }
+      .mcorner { animation: cornerShow  13s ease          infinite; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect width="860" height="90" fill="url(#sg)"/>
+
+  <!-- ── MINI CORNER WEBS ── -->
+  <g class="mcorner">
+    <!-- top-left -->
+    <line x1="0" y1="0" x2="75" y2="0"  stroke="#cc0000" stroke-width="1" opacity="0.9"/>
+    <line x1="0" y1="0" x2="0"  y2="75" stroke="#cc0000" stroke-width="1" opacity="0.9"/>
+    <line x1="0" y1="0" x2="60" y2="40" stroke="#cc0000" stroke-width="0.7" opacity="0.7"/>
+    <line x1="0" y1="0" x2="40" y2="60" stroke="#cc0000" stroke-width="0.7" opacity="0.7"/>
+    <path d="M18 0 Q12 12 0 18" fill="none" stroke="#cc0000" stroke-width="0.8" opacity="0.85"/>
+    <path d="M38 0 Q26 26 0 38" fill="none" stroke="#cc0000" stroke-width="0.7" opacity="0.7"/>
+    <path d="M58 0 Q40 40 0 58" fill="none" stroke="#cc0000" stroke-width="0.6" opacity="0.55"/>
+    <!-- top-right -->
+    <line x1="860" y1="0" x2="785" y2="0"  stroke="#cc0000" stroke-width="1" opacity="0.9"/>
+    <line x1="860" y1="0" x2="860" y2="75" stroke="#cc0000" stroke-width="1" opacity="0.9"/>
+    <line x1="860" y1="0" x2="800" y2="40" stroke="#cc0000" stroke-width="0.7" opacity="0.7"/>
+    <line x1="860" y1="0" x2="820" y2="60" stroke="#cc0000" stroke-width="0.7" opacity="0.7"/>
+    <path d="M842 0 Q848 12 860 18" fill="none" stroke="#cc0000" stroke-width="0.8" opacity="0.85"/>
+    <path d="M822 0 Q834 26 860 38" fill="none" stroke="#cc0000" stroke-width="0.7" opacity="0.7"/>
+    <path d="M802 0 Q820 40 860 58" fill="none" stroke="#cc0000" stroke-width="0.6" opacity="0.55"/>
+  </g>
+
+  <!-- ── SECTION TITLE (fades in with Spider-Man) ── -->
+  <text x="430" y="54" text-anchor="middle"
+        font-family="'Courier New', Courier, monospace"
+        font-size="26" font-weight="bold"
+        fill="#ffffff" letter-spacing="3"
+        class="stitle">📊 &nbsp; SPIDER-STATS</text>
+
+  <text x="430" y="74" text-anchor="middle"
+        font-family="'Courier New', Courier, monospace"
+        font-size="10" fill="#cc0000" letter-spacing="2"
+        class="stitle">— contributions · streaks · languages —</text>
+
+  <!-- ── WEB LINE (from top-right anchor to Spider-Man hand) ── -->
+  <!-- Positioned so it looks like it goes to the mini Spider-Man's right hand -->
+  <line x1="860" y1="0" x2="458" y2="32"
+        stroke="rgba(210,210,210,0.75)" stroke-width="1.3"
+        class="wl"/>
+
+  <!-- ── MINI SPIDER-MAN (group, animated) ── -->
+  <!-- Default position: centered at (430, 45). Animation translates the whole group. -->
+  <g class="sm">
+
+    <!-- Head (red mask) -->
+    <ellipse cx="430" cy="30" rx="10" ry="11" fill="#cc0000"/>
+
+    <!-- Eyes (white) -->
+    <path d="M422 27 Q426 22 430 25 Q427 29 422 28 Z" fill="white"/>
+    <path d="M430 25 Q434 22 438 27 Q438 29 433 29 Z" fill="white"/>
+
+    <!-- Neck -->
+    <rect x="426" y="41" width="8" height="5" fill="#cc0000" rx="1"/>
+
+    <!-- Torso -->
+    <path d="M421 46 L439 46 L441 66 L419 66 Z" fill="#cc0000"/>
+
+    <!-- Shorts -->
+    <path d="M419 61 L441 61 L441 66 L419 66 Z" fill="#0d0d1c"/>
+
+    <!-- Spider logo (tiny) -->
+    <ellipse cx="430" cy="54" rx="3.5" ry="2" fill="#0d0d1c"/>
+    <line x1="426.5" y1="53" x2="422" y2="48" stroke="#0d0d1c" stroke-width="1.4" stroke-linecap="round"/>
+    <line x1="433.5" y1="53" x2="438" y2="48" stroke="#0d0d1c" stroke-width="1.4" stroke-linecap="round"/>
+    <line x1="426.5" y1="55" x2="422" y2="60" stroke="#0d0d1c" stroke-width="1.4" stroke-linecap="round"/>
+    <line x1="433.5" y1="55" x2="438" y2="60" stroke="#0d0d1c" stroke-width="1.4" stroke-linecap="round"/>
+
+    <!-- Left arm (down / relaxed) -->
+    <path d="M421 52 Q408 56 402 52" stroke="#cc0000" stroke-width="5" fill="none" stroke-linecap="round"/>
+    <circle cx="402" cy="52" r="3.5" fill="#cc0000"/>
+
+    <!-- Right arm (up / holding web) -->
+    <path d="M439 50 Q448 40 458 34" stroke="#cc0000" stroke-width="5" fill="none" stroke-linecap="round"/>
+    <circle cx="458" cy="34" r="3.5" fill="#cc0000"/>
+
+    <!-- Legs -->
+    <path d="M424 66 Q419 76 414 83" stroke="#0d0d1c" stroke-width="5.5" fill="none" stroke-linecap="round"/>
+    <path d="M436 66 Q441 76 446 83" stroke="#0d0d1c" stroke-width="5.5" fill="none" stroke-linecap="round"/>
+
+  </g>
+
+</svg>

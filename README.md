@@ -121,18 +121,18 @@ devendra = {
 ## 📊 &nbsp;SPIDER-STATS
 
 <p align="center">
-  <img height="175"
-       src="https://github-readme-stats.vercel.app/api?username=DevendraRaj58&show_icons=true&count_private=true&bg_color=0d0d0d&title_color=cc0000&icon_color=cc0000&text_color=ffffff&border_color=cc0000&border_radius=6"
+  <img height="170"
+       src="https://github-readme-stats.vercel.app/api?username=DevendraRaj58&show_icons=true&count_private=true&theme=dark&title_color=CC0000&icon_color=CC0000&border_color=CC0000&hide_border=false"
        alt="GitHub Stats"/>
   &nbsp;&nbsp;
-  <img height="175"
-       src="https://streak-stats.demolab.com/?user=DevendraRaj58&background=0D0D0D&ring=cc0000&fire=cc0000&currStreakLabel=cc0000&sideLabels=ffffff&currStreakNum=ffffff&dates=777777&sideNums=ffffff&border=cc0000&stroke=cc0000&border_radius=6"
+  <img height="170"
+       src="https://github-readme-streak-stats.herokuapp.com/?user=DevendraRaj58&theme=dark&ring=CC0000&fire=CC0000&currStreakLabel=CC0000&border=CC0000&stroke=CC0000"
        alt="GitHub Streak"/>
 </p>
 
 <p align="center">
-  <img height="155"
-       src="https://github-readme-stats.vercel.app/api/top-langs/?username=DevendraRaj58&layout=compact&bg_color=0d0d0d&title_color=cc0000&text_color=ffffff&border_color=cc0000&border_radius=6&langs_count=8"
+  <img height="150"
+       src="https://github-readme-stats.vercel.app/api/top-langs/?username=DevendraRaj58&layout=compact&theme=dark&title_color=CC0000&border_color=CC0000&langs_count=8"
        alt="Top Languages"/>
 </p>
 

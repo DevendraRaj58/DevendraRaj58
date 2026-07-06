@@ -121,19 +121,21 @@ devendra = {
 ## 📊 &nbsp;SPIDER-STATS
 
 <p align="center">
-  <img height="170"
-       src="https://github-readme-stats.vercel.app/api?username=DevendraRaj58&show_icons=true&count_private=true&theme=dark&title_color=CC0000&icon_color=CC0000&border_color=CC0000&hide_border=false"
-       alt="GitHub Stats"/>
-  &nbsp;&nbsp;
-  <img height="170"
-       src="https://github-readme-streak-stats.herokuapp.com/?user=DevendraRaj58&theme=dark&ring=CC0000&fire=CC0000&currStreakLabel=CC0000&border=CC0000&stroke=CC0000"
-       alt="GitHub Streak"/>
+  <img src="https://img.shields.io/github/followers/DevendraRaj58?style=for-the-badge&logo=github&logoColor=white&label=FOLLOWERS&color=cc0000&labelColor=1a1a1a"/>
+  &nbsp;
+  <img src="https://img.shields.io/github/stars/DevendraRaj58?affiliations=OWNER&style=for-the-badge&logo=github&logoColor=white&label=STARS&color=1a1a1a&labelColor=cc0000"/>
+  &nbsp;
+  <img src="https://img.shields.io/badge/PUBLIC%20REPOS-12-cc0000?style=for-the-badge&logo=github&logoColor=white"/>
+  &nbsp;
+  <img src="https://img.shields.io/badge/CGPA-8.8%20%2F%2010-1a1a1a?style=for-the-badge&logo=academia&logoColor=white"/>
 </p>
 
 <p align="center">
-  <img height="150"
-       src="https://github-readme-stats.vercel.app/api/top-langs/?username=DevendraRaj58&layout=compact&theme=dark&title_color=CC0000&border_color=CC0000&langs_count=8"
-       alt="Top Languages"/>
+  <img src="https://ghchart.rshah.org/cc0000/DevendraRaj58" alt="Contribution Graph" width="100%"/>
+</p>
+
+<p align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=DevendraRaj58&bg_color=0d0d0d&color=cc0000&line=cc0000&point=ffffff&area=true&area_color=330000&hide_border=false&border_color=cc0000&title_color=cc0000" width="100%" alt="Activity Graph"/>
 </p>
 
 <img src="assets/divider.svg" width="100%"/>

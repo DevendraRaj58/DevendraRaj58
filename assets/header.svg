@@ -219,12 +219,12 @@
   <text x="430" y="237" text-anchor="middle"
         font-family="'Courier New', Courier, monospace"
         font-size="12" fill="#888888"
-        class="t-sub2">B.Tech AI &amp; Data Science  •  Ajeenkya DY Patil University, Pune  •  CGPA 8.8 / 10</text>
+        class="t-sub2">B.Tech AI &amp; Data Science  •  Slinging AI/ML for real world problems.</text>
 
   <!-- Quote -->
   <text x="430" y="297" text-anchor="middle"
         font-family="'Courier New', Courier, monospace"
         font-size="11" fill="#666666" font-style="italic"
-        class="t-quote">"With great power comes great responsibility."  — Uncle Ben</text>
+        class="t-quote">"With great power comes great responsibility."</text>
 
 </svg>

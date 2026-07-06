@@ -158,32 +158,6 @@ devendra = {
 
 <img src="assets/divider.svg" width="100%"/>
 
-<!-- ═══════════════════════════════════════════════════════════
-     🎯  CURRENT MISSION
-════════════════════════════════════════════════════════════ -->
-
-## 🎯 &nbsp;CURRENT MISSION
-
-<img src="assets/web-corner-tr.svg" width="145" align="right"/>
-
-Working through a **16-week placement-prep roadmap** targeting AI/ML & Agentic AI engineering roles. Two checkpoints:
-
-| Checkpoint | Target | Status |
-|:---|:---|:---:|
-| Campus-Placement Ready | Mid–Late August 2026 | 🔄 In Progress |
-| Specialist-Grade AI Engineer | Mid–Late October 2026 | ⏳ Upcoming |
-
-**This week's web-slinging:**
-
-- [ ] 🧮 &nbsp;ML System Design — writing one-pagers for DhartiQ & RBI RAG
-- [ ] 🔬 &nbsp;RAG Evaluation with RAGAS & LangSmith
-- [ ] ☁️ &nbsp;LLMOps tooling (MLflow · Evidently AI · DVC)
-- [x] ✅ &nbsp;FWI Project — AWS Elastic Beanstalk + CodePipeline deployed
-- [x] ✅ &nbsp;DhartiQ — LangGraph agentic pipeline complete
-
-<br clear="both"/>
-
-<img src="assets/divider.svg" width="100%"/>
 
 <!-- ═══════════════════════════════════════════════════════════
      🔗  FIND ME IN THE MULTIVERSE

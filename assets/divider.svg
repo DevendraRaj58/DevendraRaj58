@@ -1,0 +1,19 @@
+<svg viewBox="0 0 860 26" width="860" height="26" xmlns="http://www.w3.org/2000/svg">
+  <!-- Left line -->
+  <line x1="10" y1="13" x2="400" y2="13" stroke="#cc0000" stroke-width="1" opacity="0.55"/>
+  <!-- Right line -->
+  <line x1="460" y1="13" x2="850" y2="13" stroke="#cc0000" stroke-width="1" opacity="0.55"/>
+  <!-- Spider body -->
+  <ellipse cx="430" cy="9"  rx="5.5" ry="4.5" fill="#cc0000" opacity="0.9"/>
+  <ellipse cx="430" cy="17" rx="5"   ry="4.5" fill="#cc0000" opacity="0.9"/>
+  <!-- Left legs -->
+  <path d="M424.5 8  Q414 4  406 1"  stroke="#cc0000" stroke-width="1.2" fill="none" opacity="0.75" stroke-linecap="round"/>
+  <path d="M424.5 10 Q415 9  407 9"  stroke="#cc0000" stroke-width="1.2" fill="none" opacity="0.75" stroke-linecap="round"/>
+  <path d="M424.5 15 Q415 16 407 17" stroke="#cc0000" stroke-width="1.2" fill="none" opacity="0.75" stroke-linecap="round"/>
+  <path d="M424.5 18 Q414 22 406 25" stroke="#cc0000" stroke-width="1.2" fill="none" opacity="0.75" stroke-linecap="round"/>
+  <!-- Right legs -->
+  <path d="M435.5 8  Q446 4  454 1"  stroke="#cc0000" stroke-width="1.2" fill="none" opacity="0.75" stroke-linecap="round"/>
+  <path d="M435.5 10 Q445 9  453 9"  stroke="#cc0000" stroke-width="1.2" fill="none" opacity="0.75" stroke-linecap="round"/>
+  <path d="M435.5 15 Q445 16 453 17" stroke="#cc0000" stroke-width="1.2" fill="none" opacity="0.75" stroke-linecap="round"/>
+  <path d="M435.5 18 Q446 22 454 25" stroke="#cc0000" stroke-width="1.2" fill="none" opacity="0.75" stroke-linecap="round"/>
+</svg>

@@ -1,0 +1,28 @@
+<svg viewBox="0 0 170 170" width="170" height="170" xmlns="http://www.w3.org/2000/svg">
+  <!-- Radial spokes from top-left corner -->
+  <line x1="0" y1="0" x2="170" y2="0"   stroke="#cc0000" stroke-width="1.8" opacity="0.9"/>
+  <line x1="0" y1="0" x2="0"   y2="170" stroke="#cc0000" stroke-width="1.8" opacity="0.9"/>
+  <line x1="0" y1="0" x2="138" y2="92"  stroke="#cc0000" stroke-width="1.2" opacity="0.8"/>
+  <line x1="0" y1="0" x2="92"  y2="138" stroke="#cc0000" stroke-width="1.2" opacity="0.8"/>
+  <line x1="0" y1="0" x2="170" y2="54"  stroke="#cc0000" stroke-width="0.9" opacity="0.6"/>
+  <line x1="0" y1="0" x2="54"  y2="170" stroke="#cc0000" stroke-width="0.9" opacity="0.6"/>
+  <line x1="0" y1="0" x2="170" y2="110" stroke="#cc0000" stroke-width="0.7" opacity="0.45"/>
+  <line x1="0" y1="0" x2="110" y2="170" stroke="#cc0000" stroke-width="0.7" opacity="0.45"/>
+  <!-- Concentric arc threads -->
+  <path d="M 36 0 Q 25 25 0 36"   fill="none" stroke="#cc0000" stroke-width="1.1" opacity="0.95"/>
+  <path d="M 72 0 Q 51 51 0 72"   fill="none" stroke="#cc0000" stroke-width="1.0" opacity="0.85"/>
+  <path d="M 108 0 Q 76 76 0 108" fill="none" stroke="#cc0000" stroke-width="0.9" opacity="0.70"/>
+  <path d="M 144 0 Q 102 102 0 144" fill="none" stroke="#cc0000" stroke-width="0.8" opacity="0.55"/>
+  <path d="M 170 0 Q 124 124 0 170" fill="none" stroke="#cc0000" stroke-width="0.7" opacity="0.38"/>
+  <!-- Spider at corner -->
+  <ellipse cx="7" cy="5"  rx="5" ry="4" fill="#cc0000"/>
+  <ellipse cx="7" cy="12" rx="4.5" ry="4" fill="#cc0000"/>
+  <line x1="2" y1="4"  x2="-3" y2="0"  stroke="#cc0000" stroke-width="1.2" stroke-linecap="round"/>
+  <line x1="2" y1="6"  x2="-3" y2="6"  stroke="#cc0000" stroke-width="1.2" stroke-linecap="round"/>
+  <line x1="2" y1="12" x2="-3" y2="12" stroke="#cc0000" stroke-width="1.2" stroke-linecap="round"/>
+  <line x1="2" y1="14" x2="-3" y2="18" stroke="#cc0000" stroke-width="1.2" stroke-linecap="round"/>
+  <line x1="12" y1="4"  x2="17" y2="0"  stroke="#cc0000" stroke-width="1.2" stroke-linecap="round"/>
+  <line x1="12" y1="6"  x2="17" y2="6"  stroke="#cc0000" stroke-width="1.2" stroke-linecap="round"/>
+  <line x1="12" y1="12" x2="17" y2="12" stroke="#cc0000" stroke-width="1.2" stroke-linecap="round"/>
+  <line x1="12" y1="14" x2="17" y2="18" stroke="#cc0000" stroke-width="1.2" stroke-linecap="round"/>
+</svg>

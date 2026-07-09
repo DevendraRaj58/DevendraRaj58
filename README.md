@@ -89,10 +89,10 @@ Final-year **B.Tech student in Artificial Intelligence & Data Science** at Ajeen
 <img src="assets/divider.svg" width="100%"/>
 
 <!-- ═══════════════════════════════════════════════════════════
-     🕸️  ACTIVE MISSIONS  (Projects)
+     🕸️  PROJECTS
 ════════════════════════════════════════════════════════════ -->
 
-## 🕸️ &nbsp;ACTIVE MISSIONS
+## 🕸️ &nbsp;PROJECTS
 
 > *Every great power needs a deployment pipeline.*
 

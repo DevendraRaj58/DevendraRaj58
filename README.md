@@ -100,7 +100,7 @@ Final-year **B.Tech student in Artificial Intelligence & Data Science** at Ajeen
 |:---:|:---|:---|:---|
 | 🌾 | **[DhartiQ](https://github.com/DevendraRaj58/Dharti-Q)** | Multi-agent Telegram bot that gives crop advisory using real-time weather, web search, and farmer-context RAG — built at Hackron 2.0 (Top 10 / 150+ teams). | LangGraph · GPT-4.1-mini · OpenWeather · Tavily · MySQL |
 | 🔥 | **[Fire Weather Index Prediction](https://github.com/DevendraRaj58/Fire_Weather_Index-Prediction)** | End-to-end ML system predicting forest fire risk from meteorological data, with a Flask REST API deployed on AWS Elastic Beanstalk via CodePipeline CI/CD. | Ridge Regression · Flask · AWS EB · CodePipeline · ECR |
-| 📜 | **[RBI Regulatory RAG System](https://github.com/DevendraRaj58)** | Enterprise-grade RAG pipeline over RBI circulars using hybrid BM25 + dense retrieval, cross-encoder reranking, and RAGAS-based evaluation framework. | LangChain · FAISS · BM25 · RAGAS · OpenAI |
+| 📜 | **[Customer Churn Prediction](https://github.com/DevendraRaj58/Customer-Churn-Prediction)** | End-to-end ML pipeline to predict telecom customer churn using EDA, feature engineering, model comparison, hyperparameter tuning, and Streamlit deployment. | Python · Pandas · NumPy · Scikit-learn · Streamlit · Joblib · Matplotlib · Seaborn |
 | ♻️ | **[IndiaEwasteDisposal](https://github.com/DevendraRaj58/IndiaEwasteDisposal)** | Web platform providing structured information on e-waste disposal centres and responsible recycling practices across India. | HTML · CSS · JavaScript |
 
 <img src="assets/divider.svg" width="100%"/>

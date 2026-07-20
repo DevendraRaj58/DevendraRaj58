@@ -28,7 +28,9 @@
 
 ## 🕷️ &nbsp;WHO AM I?
 
-Final-year **B.Tech student in Artificial Intelligence & Data Science** at Ajeenkya DY Patil University, Pune (CGPA **8.8 / 10**, Batch 2023–2027). I build things that think — multi-agent bots, RAG pipelines, and end-to-end ML systems.
+Final-year **B.Tech student in Artificial Intelligence & Data Science** at Ajeenkya DY Patil University, Pune (CGPA **8.8/10**, Batch 2023–2027).
+
+I enjoy building intelligent systems that solve real-world problems—from traditional machine learning pipelines to modern Agentic AI and Retrieval-Augmented Generation (RAG) applications. My interests lie in AI Engineering, Generative AI, Data Science and scalable cloud deployment on AWS.
 
 
 
@@ -99,6 +101,7 @@ Final-year **B.Tech student in Artificial Intelligence & Data Science** at Ajeen
 | &nbsp; | Project | One-liner | Stack Highlights |
 |:---:|:---|:---|:---|
 | 🌾 | **[DhartiQ](https://github.com/DevendraRaj58/Dharti-Q)** | Multi-agent Telegram bot that gives crop advisory using real-time weather, web search, and farmer-context RAG — built at Hackron 2.0 (Top 10 / 150+ teams). | LangGraph · GPT-4.1-mini · OpenWeather · Tavily · MySQL |
+| 🏦 | **[Loan Intelligence Platform](https://github.com/DevendraRaj58/Loan-Intelligence-Platform)** | Explainable credit risk prediction system built on ~355K Home Credit records using advanced feature engineering, ensemble ML, and hyperparameter optimization to predict loan defaults. | Python · Pandas · Scikit-learn · XGBoost · LightGBM · Random Forest · Bayesian Optimization |
 | 🔥 | **[Fire Weather Index Prediction](https://github.com/DevendraRaj58/Fire_Weather_Index-Prediction)** | End-to-end ML system predicting forest fire risk from meteorological data, with a Flask REST API deployed on AWS Elastic Beanstalk via CodePipeline CI/CD. | Ridge Regression · Flask · AWS EB · CodePipeline · ECR |
 | 📜 | **[Customer Churn Prediction](https://github.com/DevendraRaj58/Customer-Churn-Prediction)** | End-to-end ML pipeline to predict telecom customer churn using EDA, feature engineering, model comparison, hyperparameter tuning, and Streamlit deployment. | Python · Pandas · NumPy · Scikit-learn · Streamlit · Joblib · Matplotlib · Seaborn |
 | ♻️ | **[IndiaEwasteDisposal](https://github.com/DevendraRaj58/IndiaEwasteDisposal)** | Web platform providing structured information on e-waste disposal centres and responsible recycling practices across India. | HTML · CSS · JavaScript |
@@ -106,27 +109,19 @@ Final-year **B.Tech student in Artificial Intelligence & Data Science** at Ajeen
 <img src="assets/divider.svg" width="100%"/>
 
 <!-- ═══════════════════════════════════════════════════════════
-     📊  SPIDER-STATS
+     📊 GITHUB STATS
 ════════════════════════════════════════════════════════════ -->
 
-## 📊 &nbsp;SPIDER-STATS
+## 📊 GitHub Stats
 
 <p align="center">
-  <img src="https://img.shields.io/github/followers/DevendraRaj58?style=for-the-badge&logo=github&logoColor=white&label=FOLLOWERS&color=cc0000&labelColor=1a1a1a"/>
-  &nbsp;
-  <img src="https://img.shields.io/github/stars/DevendraRaj58?affiliations=OWNER&style=for-the-badge&logo=github&logoColor=white&label=STARS&color=1a1a1a&labelColor=cc0000"/>
-  &nbsp;
-  <img src="https://img.shields.io/badge/PUBLIC%20REPOS-12-cc0000?style=for-the-badge&logo=github&logoColor=white"/>
-  &nbsp;
-  <img src="https://img.shields.io/badge/CGPA-8.8%20%2F%2010-1a1a1a?style=for-the-badge&logo=academia&logoColor=white"/>
+<img width="100%" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=DevendraRaj58&theme=github_dark"/>
 </p>
 
-<p align="center">
-  <img src="https://ghchart.rshah.org/cc0000/DevendraRaj58" alt="Contribution Graph" width="100%"/>
-</p>
+
 
 <p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=DevendraRaj58&bg_color=0d0d0d&color=cc0000&line=cc0000&point=ffffff&area=true&area_color=330000&hide_border=false&border_color=cc0000&title_color=cc0000" width="100%" alt="Activity Graph"/>
+<img width="100%" src="https://ghchart.rshah.org/DevendraRaj58"/>
 </p>
 
 <img src="assets/divider.svg" width="100%"/>

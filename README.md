@@ -24,7 +24,7 @@
      🕷️  WHO AM I?
 ════════════════════════════════════════════════════════════ -->
 
-<img src="assets/web-corner-tl.svg" width="155" align="left"/>
+
 
 ## 🕷️ &nbsp;WHO AM I?
 

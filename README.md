@@ -140,7 +140,7 @@ I enjoy building intelligent systems that solve real-world problems—from tradi
 
 &nbsp;🏆 &nbsp;**Smart India Hackathon Winner (Internal)** &nbsp;`AI WhatsApp Assistant for Farmers`
 
-&nbsp;📈 &nbsp;**CGPA 8.8 / 10** &nbsp;`B.Tech AI & Data Science`
+&nbsp;📈 &nbsp;**Presented Dhati-Q at ADYPU Businnes Incubator as a scalable product** &nbsp;`B.Tech AI & Data Science`
 
 <br clear="both"/>
 
